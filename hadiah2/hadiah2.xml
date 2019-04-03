@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light">
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:src="@android:drawable/ic_menu_myplaces"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile"
+                android:text="Profile"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_dark">
+            <ImageView
+                android:id="@+id/searchjob"
+                android:layout_width="wrap_content"
+                android:src="@android:drawable/ic_menu_search"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchjob"
+                android:text="Search Job"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light">
+            <ImageView
+                android:id="@+id/notifications"
+                android:layout_width="wrap_content"
+                android:src="@android:drawable/ic_popup_reminder"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notifications"
+                android:text="Notification"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#DAA520">
+        <ImageView
+            android:id="@+id/messages"
+            android:layout_width="wrap_content"
+            android:src="@android:drawable/ic_dialog_email"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/messages"
+            android:text="Messages"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/background_light"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#228B22">
+            <ImageView
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:src="@android:drawable/btn_star_big_off"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate"
+                android:text="Rate Card"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light"/>
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E9967A">
+            <ImageView
+                android:id="@+id/review"
+                android:layout_width="wrap_content"
+                android:src="@android:drawable/ic_menu_edit"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/review"
+                android:text="Review"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
